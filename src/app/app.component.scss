@@ -1,0 +1,30 @@
+.h5{
+	background-color: skyblue;
+	padding: 20px;
+	margin: 0%;
+}
+.testClass
+{
+	overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+}
+.ui-grid-header-cell .ui-grid-cell-contents {
+     height: 48px;
+     white-space: normal;
+     -ms-text-overflow: clip;
+     -o-text-overflow: clip;
+     text-overflow: clip;
+     overflow: visible;
+     color: #5b9bd5;
+     background-color: #5b9bd5;
+     background: #5b9bd5;
+
+}
+.ag-theme-alpine {
+    --ag-header-height: 30px;
+    --ag-header-foreground-color: white;
+    --ag-header-background-color: #5b9bd5;
+    --ag-header-cell-hover-background-color: rgb(80, 40, 140);
+    --ag-header-cell-moving-background-color: rgb(80, 40, 140);
+}

@@ -1,0 +1,28 @@
+<div class="h5">
+	<span i18n class="label">
+	  <label>{{CONS_SELECT_USER}}:</label>
+	</span>
+	<span i18n>
+	 <select id="userName" name="userName" class="dropdown_user">
+    	<option *ngFor="let userName of userList" [value]="userName">{{userName}}</option>  
+     </select>
+	 </span>
+	<span i18n class="label">
+	  <label>{{CONS_LAST_PURCHASE_BY_USER_ON}}:</label>
+	</span>
+<span i18n class="label">
+	  <label>{{CONS_Last_RECOMMENDATION_BY_SONU_ON}}:</label>
+	</span>
+	<span i18n class="label">
+		<app-date-picker></app-date-picker>
+	</span>
+<span class="label">
+	  <label>{{SP_MONTHLY}}:</label>
+</span>
+<span class="label">
+	<a *ngIf="isLoggedIn" class="nav-link" href="/logout" (click)=handleLogout()>Logout</a>
+	
+</span>
+
+</div>
+
